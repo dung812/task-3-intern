@@ -1,0 +1,113 @@
+/* Another */
+.cl10 {
+	color: #db413e!important;
+}
+
+.hov-cl10:hover {
+	color: #db413e!important;
+}
+
+.btn-back-to-top {
+	background-color: #db413e;
+}
+
+.logo-footer {
+	width: 70%!important;
+}
+
+@media (max-width: 64.625em) {
+	.logo-footer {
+		width: 30%!important;
+	}
+}
+/* Custom background header*/
+.custom-background-second {
+	background: #212121!important;
+}
+.custom-background-first {
+	background: #140a15!important;
+}
+
+/* Custom navigation pc */
+.main-menu li > a {
+	color: #a7a3a3;
+}
+.mega-menu-item > a {
+	color: #a7a3a3!important;
+}
+.main-menu-active > a {
+	color: #a7a3a3!important;
+}
+
+.main-menu > li > a::after {
+	color: #a7a3a3!important;
+}
+
+.main-menu > li:hover > a {
+	color: #a7a3a3!important;
+}
+.main-menu > li:hover > a:after {
+	color: #a7a3a3!important;
+}
+
+.del-gribbon > a::after {
+	display: none;
+}
+.main-menu .sub-menu a {
+	color: #000!important;
+	
+}
+
+.sub-menu > li:hover > a {
+	background-color: #eb4343;
+}
+
+.main-menu > li > a::before {
+	background-color: #eb4343!important;
+}
+
+
+/* Custom navigation mobile */
+.wrap-header-mobile {
+	background-color: #140a15;
+	margin-top: 0.8rem!important;
+}
+/* Tablet and mobile: width < 1024px */
+@media (max-width: 64.625em) {
+	.wrap-logo {
+		padding: 0;
+	}
+}
+
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+	background-color: #fff;
+}
+
+.logo-mobile img {
+	max-height: 100%;
+}
+
+.main-menu-m {
+	background-color: #fff;
+}
+
+.main-menu-m > li {
+	background-color: #fff;
+}
+
+.main-menu-m > li > a {
+	color: #000;
+	font-weight: bold;
+}
+
+.main-menu-m > li > a:hover {
+	color: #eb4343;
+}
+
+.arrow-main-menu-m {
+	color: #000;
+}
+
+.sub-menu-m a {
+	color: #000;
+}
